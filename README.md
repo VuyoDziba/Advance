@@ -1,4 +1,4 @@
-# Ethical Keyboard Monitor Lab
+# Ethical Keylogger Monitor Lab
 
 Educational cybersecurity project demonstrating keyboard event monitoring concepts using Python.
 
