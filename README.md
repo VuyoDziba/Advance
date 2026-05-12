@@ -1,56 +1,153 @@
-# Ethical Keylogger Monitor Lab
+# Python Keylogger Monitoring Lab with Email Reporting
 
-Educational cybersecurity project demonstrating keyboard event monitoring concepts using Python.
+Educational cybersecurity project demonstrating keyboard event monitoring and automated email reporting using Python.
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This project is intended strictly for:
+
 - Educational purposes
-- Authorized security testing
+- Authorized penetration testing
 - Defensive cybersecurity research
 - Controlled lab environments
+- Security awareness demonstrations
 
-Do NOT deploy on systems you do not own or without explicit authorization.
+Do NOT use this software on devices, networks, or systems without explicit written authorization.
+
+The author assumes no responsibility for misuse or damage caused by this project.
 
 ---
 
-## Features
+# Features
 
 - Keyboard event monitoring
-- Local log storage
-- Python threading concepts
-- File handling
-- Cybersecurity lab experimentation
+- Local keystroke logging
+- Automated email reporting
+- Multi-threaded background processing
+- File logging support
+- Python SMTP integration
+- Security research demonstration
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 - Python 3
 - pynput
+- smtplib
+- threading
 
 ---
 
-## Installation
+# Installation
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/keyboard-monitor-lab.git
+```
+
+## Navigate Into the Project
+
+```bash
+cd keyboard-monitor-lab
+```
+
+## Install Dependencies
 
 pip install -r requirements.txt
 
 ---
 
-## Run
+# Requirements
 
-```bash
-python keylogger.py
-```
+Create a `requirements.txt` file:
+
+pynput
 
 ---
 
-## Educational Objectives
+# Email Configuration
 
-This project helps students understand:
+Update the following variables in the script:
 
-- Input monitoring techniques
-- Security awareness
-- Detection engineering
-- Defensive monitoring
-- Python event listeners
+```python
+EMAIL_ADDRESS = "your_email@gmail.com"
+EMAIL_PASSWORD = "your_app_password"
+TARGET_EMAIL = "receiver@gmail.com"
+```
+
+## Gmail App Password Setup
+
+Google blocks normal passwords for SMTP access.
+
+Use a Gmail App Password instead:
+
+1. Enable 2-Step Verification
+2. Go to Google Account Settings
+3. Generate an App Password
+4. Use the generated password in the script
+
+---
+
+# Running the Program
+
+python keylogger.py
+
+
+Press `ESC` to stop the program safely.
+
+---
+
+# Educational Objectives
+
+This project demonstrates:
+
+- Keyboard input monitoring concepts
+- Email automation using SMTP
+- Event listeners in Python
+- File handling
+- Multi-threading
+- Security awareness concepts
+
+---
+
+# Ethical Usage
+
+This project should only be used:
+
+- In virtual labs
+- In sandbox environments
+- During authorized penetration tests
+- For cybersecurity education
+
+Unauthorized deployment may violate:
+- Privacy laws
+- Computer crime legislation
+- Institutional policies
+
+---
+
+# Future Improvements
+
+- Encrypted logging
+- Secure credential storage
+- Detection engineering module
+- SIEM integration
+- Docker deployment
+- Linux persistence simulation (lab only)
+
+---
+
+# Screenshots
+
+Add screenshots here showing:
+- Program execution
+- Log file generation
+- Email reporting
+- Test lab setup
+
+---
+
+
+
