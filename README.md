@@ -44,13 +44,13 @@ The author assumes no responsibility for misuse or damage caused by this project
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/keyboard-monitor-lab.git
+git clone https://github.com/yourusername/keylogger-monitor-lab.git
 ```
 
 ## Navigate Into the Project
 
 ```bash
-cd keyboard-monitor-lab
+cd keylogger-monitor-lab
 ```
 
 ## Install Dependencies
